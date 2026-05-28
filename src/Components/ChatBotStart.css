@@ -1,0 +1,56 @@
+.start-page {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.start-page-user {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: #7b8ebc;
+  font-size: 1.4rem;
+}
+
+.sign-out-btn {
+  padding: 0.6rem 1.5rem;
+  background: none;
+  border: 1px solid #7b8ebc;
+  border-radius: 0.5rem;
+  color: #7b8ebc;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sign-out-btn:hover {
+  border-color: #f42f5f;
+  color: #f42f5f;
+}
+
+.start-page-btn {
+  width: 35rem;
+  height: 15rem;
+  background: linear-gradient(135deg, #f42f5f, #8e25bf);
+  border: none;
+  border-radius: 1rem;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.start-page-btn:active {
+  transform: scale(0.98);
+}
